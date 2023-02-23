@@ -1,0 +1,46 @@
+.tabela {
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+tr {
+    margin: 8px;
+    background-color: #FFF;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #729599;
+    color: #FFF;
+    font-size: 24px;
+}
+
+td {
+    /* background-color: #FFF; */
+    border-top: 1px solid #DADADA;
+    text-align: left;
+}
+
+table tbody tr:hover {
+    cursor: pointer;
+    background-color: #DADADA;
+}

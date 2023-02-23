@@ -1,0 +1,11 @@
+.formulario {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.coluna-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
